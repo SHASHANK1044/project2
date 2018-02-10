@@ -1,0 +1,77 @@
+#hbo {
+position:absolute;
+width:10%;   	
+}
+#logo {
+width:90%; 
+margin-top:40px;  	
+}
+
+#links a{
+color:#667292;
+font-size:30px;
+margin:15px;   
+}
+
+#photosup {
+position:absolute;
+top:48.5%; 
+left:10%;
+}
+#photosup img{
+width:24%;
+height: 1%;
+margin-right: 80px;
+box-shadow:0px 20px 36px 0px rgba(0,0,0,0.7);
+
+}
+#photosup img:hover {
+	transform: scale(1.1,1.1);
+	transition: 2s;
+}
+
+
+#photosdown img{
+display: block;
+box-shadow:0px 20px 36px 0px rgba(0,0,0,0.7) ;
+overflow: hidden;
+
+}
+
+#seasonsblock,#moviesblock,#downloadsblock,#castblock,#galleryblock,#sheduleblock {
+    position: absolute;
+    border: 1px ;
+    width: 120px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 22px 36px 0px rgba(0,0,0,.5);
+    display: none;
+
+}
+
+#seasonsblock a,#moviesblock a,#downloadsblock a,#castblock a,#galleryblock a,#sheduleblock a {
+	display: block;
+	line-height: 30px;
+	text-decoration: none;
+	border-bottom:1px solid black;  
+	color: #667292;
+
+}
+
+#seasonsblock a:hover,#moviesblock a:hover,#downloadsblock a:hover,#castblock a:hover,#galleryblock a:hover,#sheduleblock a:hover {
+	background-color: grey;
+	color: white;
+}
+
+#seasonsblock{top: 35px; left:290px;}
+
+#moviesblock{top: 35px;left:430px;}
+
+#downloadsblock{top: 35px;left:565px;}
+
+#castblock{top: 35px;left:700px;}
+
+#galleryblock{top: 35px;left:800px;}
+
+#sheduleblock{top: 35px;left:930px;}
+
